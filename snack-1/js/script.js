@@ -16,9 +16,11 @@ var numeroDue = parseInt(prompt("Dammi il secondo numero"));
 console.log(numeroDue);
 document.getElementById('secondo_numero').innerHTML = numeroDue;
 
+// Controllo se i numeri sono validi
+
 while ( isNaN(numeroUno) || isNaN(numeroDue) ) {
   alert("Numeri inseriti non validi. per favore controllare");
-  numeroUno = parseInt(prompt("Dammi il primo numero"));
+  var numeroUno = parseInt(prompt("Dammi il primo numero"));
   var numeroDue = parseInt(prompt("Dammi il secondo numero"));
 
 }

@@ -12,7 +12,15 @@ console.log(parolaDue);
 
 var messaggio;
 
+// Controllo la correttezza delle parole inserite
 
+while ( !isNaN(parolaUno) || !isNaN(parolaDue) ) {
+  prompt("Parola non valida. Prego inserire solo caratteri alfabetici");
+  var parolaUno = prompt('Inserisci la prima parola');
+
+  var parolaDue = prompt('Inserisci la seconda parola');
+
+}
 // STAMPO LE PAROLE INSERITE DALLUTENTE
 
 if (parolaUno.length > parolaDue.length) {
