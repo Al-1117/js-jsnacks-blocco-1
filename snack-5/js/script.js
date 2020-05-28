@@ -6,31 +6,36 @@
 
 // CICLO FOR
 //
+
+var numeri = 0;
+
 for (var i = 0; i < 5; i++) {
 
   var numeroUtente = parseInt(prompt('Dammi un numero'));
+  
   var numeri = numeri + numeroUtente;
 }
+
+
 
 
 
 // CICLO WHILE
 
-var numeri = 0;
-console.log(numeri);
-
-var  i = 0;
-
-while (i < 5) {
-  var numeroUtente = parseInt(prompt('Dammi un numero'));
-  console.log(numeroUtente);
-
-  var numeri = numeri + numeroUtente;
-
-
-  i++
-
-}
+// var numeri = 0;
+// console.log(numeri);
+//
+// var  i = 0;
+//
+// while (i < 5) {
+//   var numeroUtente = parseInt(prompt('Dammi un numero'));
+//   console.log(numeroUtente);
+//
+//   i++
+//
+// }
+//
+// var numeri = numeri + numeroUtente;
 
 // STAMPO LA SOMMA DI TUTTI NUMERI INSERITI
 
