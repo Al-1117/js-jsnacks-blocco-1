@@ -8,13 +8,24 @@
 
 
 // Chiedo all'utente il primo numero
-var numeroUno = prompt("Dammi il primo numero");
+var numeroUno = parseInt(prompt("Dammi il primo numero"));
 console.log(numeroUno);
 document.getElementById('primo_numero').innerHTML = numeroUno;
 // Chiedo all'utente il secondo numero
-var numeroDue = prompt("Dammi il secondo numero");
+var numeroDue = parseInt(prompt("Dammi il secondo numero"));
 console.log(numeroDue);
 document.getElementById('secondo_numero').innerHTML = numeroDue;
+
+while ( isNaN(numeroUno) || isNaN(numeroDue) ) {
+  alert("Numeri inseriti non validi. per favore controllare");
+  numeroUno = parseInt(prompt("Dammi il primo numero"));
+  var numeroDue = parseInt(prompt("Dammi il secondo numero"));
+
+}
+
+
+
+
 // Stampo il numero maggiore
 
 var messaggio = document.getElementById('messaggio');
