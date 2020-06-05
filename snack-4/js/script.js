@@ -4,15 +4,15 @@
 
 // Chiedo il numero all'utente
 
-var numero = parseInt(prompt("Dammi un numero di 4 cifre"));
+var numero = prompt("Dammi un numero di 4 cifre"));
 console.log(numero);
 
 // Controllo che il numero inserito sia valido
 
-// while (numero != 4) {
-//   numero = parseInt(prompt("Numero non valido. Dammi un numero di 4 cifre"));
-//   console.log(numero);
-// }
+while (numero != 4) {
+  numero = parseInt(prompt("Numero non valido. Dammi un numero di 4 cifre"));
+  console.log(numero);
+}
 
 
 // Converto il numero in Stringhe
